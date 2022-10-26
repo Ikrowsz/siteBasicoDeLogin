@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <link rel="stylesheet" href="style.css">>
+    <title>Dark&Light</title>
+    <style></style>
+    
+</head>
+<body>
+
+    
+
+    <!--caixa de mudança de tema-->
+    <input type="checkbox" class="checkbox" id="checkbox"/>
+
+    <!--botao de mudança e figuras-->
+    <label class="label" for="checkbox">
+
+            <!--imagem sol-->
+            <i class="fas fa-sun"></i>
+
+            <!--imagem lua-->
+            <i class="fas fa-moon"></i>
+
+            <!--botao de mudança-->
+            <div class="ball"></div>
+    </label>
+    
+
+    <!-- Caixa principal-->
+    <div class="main-login">
+
+        <!--Caixas secundarias-->
+        <div class="left-login">
+            <h1>Faça seu login <br>E venha para o nosso time</h1>
+            <img src="andando.svg"  class="left-login-image" alt="andando animation">
+        </div>
+        <div class="right-login"></div>
+
+        <!--Caixa de login-->
+        <div class="card-login">
+            <h1>Login</h1>
+            <div class="textfield">
+                <label for="usuario">Usuário</label>
+                <input type="text" name="usuario" placeholder="Usuário" id="login">
+            </div>
+
+            <!--Caixa de senha-->
+            <div class="card-login">
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" id="senha">
+        </div>
+        <button class="btn-login" onclick="logar()"> Login</button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
